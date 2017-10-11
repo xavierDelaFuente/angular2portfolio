@@ -1,0 +1,51 @@
+.titulos{
+    font-family: Segoe\000020UI,Tahoma,Arial;
+    color:#696969;
+    font-weight: bold;
+    width: 100%;
+    border-top:solid;
+    border-width: 1px;
+    border-color: #F3F1F1;
+    padding: 3%;
+    z-index: -1;
+    background-color: white;
+}
+
+.opciones{
+
+    font-family: Segoe\000020UI,Tahoma,Arial;
+    color:#696969;
+    font-weight: bold;
+    width: 100%;
+    border-top:solid;
+    border-width: 1px;
+    border-color: #F3F1F1;
+    padding: 3%;
+    z-index: -1;
+    background-color: white;
+    display: none;
+    z-index: 20;
+    
+}
+
+
+#listas{
+    width: 20%;
+    margin-right: 2%;
+    background-color: white;
+    float: left;
+    margin-top: 20px;
+    margin-left: 7px;
+}
+
+#InfoContainer{
+    height: 90%;
+}
+
+.icono{
+    
+    color: #0082CA;
+    float:right;
+    font-size: 24px;
+    margin-right: 3%;
+}

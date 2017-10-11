@@ -1,0 +1,15 @@
+app-portfolio-cv{
+	width: 30%;
+	padding: 5%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+img.icon{
+    
+    width: 100px;
+    height: 100px;
+}

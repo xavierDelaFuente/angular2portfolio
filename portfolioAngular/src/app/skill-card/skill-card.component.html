@@ -1,0 +1,25 @@
+<div class="thumbnail">
+	<img src="assets/img/{{ CurrentSkill.logo }}" class="icon">
+	<div class="caption">
+		<div *ngIf="!CurrentSkill.showDetails">
+			<h4>
+				<span class="label label-primary"> {{ CurrentSkill.progress }}</span>
+			</h4>
+			<h3>
+				<i class="glyphicon glyphicon-tag">
+					{{ CurrentSkill.skill }}
+				</i>
+			</h3>
+			<button class="btn btn-sm btn-success"
+					*ngIf="!CurrentSkill.showDetails"
+					(click)="CurrentSkill.showDetails = !CurrentSkill.showDetails">
+				Details
+			</button>
+		</div>
+		<button class="btn btn-sm btn-success"
+					*ngIf="CurrentSkill.showDetails"
+					(click)="CurrentSkill.showDetails = !CurrentSkill.showDetails">
+				Details
+			</button>
+	</div>
+</div>

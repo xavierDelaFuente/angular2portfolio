@@ -1,0 +1,30 @@
+[
+			{skill:'MySQL',
+			progress:80,
+			logo:'../img/sql.jpg'},
+
+			{skill:'.NET',
+			progress:60,
+			logo:'../img/net.jpg'},
+
+			{skill:'Android',
+			progress:30,
+			logo:'../img/android.jpg'},
+
+			{skill:'Matlab',
+			progress:80,
+			logo:'../img/matlab.jpg'},
+
+			{skill:'Python',
+			progress:50,
+			logo:'../img/python.jpg'},
+
+			{skill:'C #',
+			progress:40,
+			logo:'../img/csharp.jpg'},
+
+			{skill:'JAVA',
+			progress:40,
+			logo:'../img/java.png'},
+
+	]	

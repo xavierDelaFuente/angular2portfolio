@@ -1,0 +1,17 @@
+  [
+			{skill:'React',
+			progress:50,
+			logo:'../img/react.png'},
+
+			{skill:'Angular',
+			progress:30,
+			logo:'../img/angular.png'},
+
+			{skill:'Node',
+			progress:5,
+			logo:'../img/node.png'},
+
+			{skill:'TypeScript',
+			progress:5,
+			logo:'../img/node.png'}
+	]

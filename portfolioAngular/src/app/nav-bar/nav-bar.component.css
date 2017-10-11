@@ -1,0 +1,12 @@
+div a{
+    display: block;
+    color: #333333;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+}
+
+div a:hover{
+    background-color: #333333;
+    color: white;
+}

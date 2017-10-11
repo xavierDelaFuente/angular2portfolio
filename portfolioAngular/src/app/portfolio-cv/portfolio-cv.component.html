@@ -1,0 +1,29 @@
+<div class="container">
+	<div class="container">
+		<h2>Daily I work with: </h2>
+		<div *ngFor="let CurrentSkill of CurrentSkills">
+			<app-skill-card [CurrentSkill]="CurrentSkill" class="col-sm-2"></app-skill-card>
+		</div>
+	</div><pre>{{ workedSkills | json }}</pre>
+<!--
+	<div class="container">
+		<h2>But I also have work with these technologies: </h2>
+		<div *ngFor="let workedSkill of workedSkills">
+			
+			<app-skill-card [workedSkill]="workedSkill" class="col-sm-2"></app-skill-card>
+		</div>
+	</div>
+	<div class="container">
+		<h2>Now, I am learning: </h2>
+		<div *ngFor="let learningSkill of learningSkills">
+			<app-skill-card [learningSkill]="learningSkill" class="col-sm-2"></app-skill-card>
+		</div>
+	</div>
+	<div class="container">
+		<h2>I'm interested in learning: </h2>
+		<div *ngFor="let interestedSkill of interestedSkills">
+			<app-skill-card [interestedSkill]="interestedSkill" class="col-sm-2"></app-skill-card>
+		</div>
+	</div>-->
+</div>
+

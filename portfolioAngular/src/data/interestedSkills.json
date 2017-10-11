@@ -1,0 +1,9 @@
+[
+			{skill:'WebGL',
+			progress:5,
+			logo:'../img/sql.jpg'},
+
+			{skill:'Unity',
+			progress:2,
+			logo:'../img/net.jpg'}
+	]	
