@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+
+import { barCVs } from './../data/barCVs';
 
 @Component({
   selector: 'app-left-bar',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LeftBarComponent implements OnInit {
 
-  constructor() { }
+	@Input('barCVs') barCVs: any;
 
-  ngOnInit() {
+  switchLayout(element){
+debugger;
+
   }
+
+	constructor() { }
+
+	ngOnInit() {
+	}
 
 }

@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavBarComponent implements OnInit {
 
-  constructor() { }
+	Projects: Array<any>;
+	Interests: Array<any>;
+	CVs: Array<any>;
 
-  ngOnInit() {
-  }
+	constructor() { }
+
+	ngOnInit() {
+	}
 
 }

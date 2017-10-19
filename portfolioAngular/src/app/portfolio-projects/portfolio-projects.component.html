@@ -1,0 +1,48 @@
+<div class="container col-md-3">
+	<!--<app-left-bar  [barCVs]="Projects"></app-left-bar>-->
+	<div>
+		<div class='titulos' value='0'> Experience </div>  
+		<div class='optionsContainner'>
+			<i class='fa fa-angle-right icono' ></i>
+			<i class='fa fa-angle-up icono'></i> 
+				<div *ngFor="let Project of Projects">			 
+					<a class='container' style='font-weight: normal;' (click)="switchLayout(Project)">
+						{{ Project.parentlabel}} 
+					</a>
+		   		</div>
+	   	</div>
+	</div>
+</div>
+<div class="container col-md-9">
+	<div class="col-md-3">
+	    <div>
+	        <div class="titulos" value="1"> Web </div>
+	        <div class="optionsContainner">
+	            <i class="fa fa-angle-right icono" style="display: block;"></i>
+	            <i class="fa fa-angle-up icono" style="display: block;"></i>
+	            
+	            <div class="opciones" id="r0" style="font-weight: normal; display: block;"  name="Angular"> Angular</div>
+	            <div class="opciones" id="r0" style="font-weight: normal; display: block;"  name="React"> React</div>
+	            
+	        </div>
+	    </div>
+	    <div>
+	        <div class="titulos" value="1"> Audiovisual </div>
+	        <div class="optionsContainner">
+	            <i class="fa fa-angle-right icono" style="display: block;"></i>
+	            <i class="fa fa-angle-up icono" style="display: block;"></i>
+	            <div class="opciones" id="r0" style="font-weight: normal; display: block;"  name="Image"> Image</div>
+	            <div class="opciones" id="r0" style="font-weight: normal; display: block;"  name="Sound"> Sound</div>
+	            <div class="opciones" id="r0" style="font-weight: normal; display: block;"  name="Video"> Video</div>
+	        </div>
+	    </div>
+	    <div>
+	        <div class="titulos" value="0"> Other </div>
+	        <div class="optionsContainner">
+	            <i class="fa fa-angle-right icono" style="display: none;"></i>
+	            <i class="fa fa-angle-up icono" style="display: none;"></i>
+	            <div class="opciones" id="r0" style="font-weight: normal; display: none;"  name="MachineLearning"> Machine Learning</div>
+	        </div>
+	    </div>
+	</div>
+</div>

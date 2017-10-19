@@ -3,13 +3,18 @@
 		<a href="" class="navbar-brand">Portfolio: Xavier De La Fuente</a>
 	</div>
 	<div class="container">
-		<app-nav-bar> </app-nav-bar>	
-	</div>
-	
+		<app-nav-bar> </app-nav-bar>
+	</div>	
 </nav>
-<div class="container col-md-2">
-	<app-left-bar></app-left-bar>
+
+<div class="container">
+	<router-outlet></router-outlet>
 </div>
-<div class="container col-md-10">
-	<app-portfolio-cv></app-portfolio-cv>
-</div>  
+
+<!--
+<div class="container">
+	<app-portfolio-cv *ngIf="showCV"></app-portfolio-cv>
+	<app-portfolio-interests *ngIf="showInterests"></app-portfolio-interests>
+	<app-portfolio-projects *ngIf="showProjects"></app-portfolio-projects>
+</div>
+-->

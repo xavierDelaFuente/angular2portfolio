@@ -1,0 +1,31 @@
+<div class="container col-md-3">
+	<!--<app-left-bar  
+		[barCVs]="Interests"
+		></app-left-bar>-->
+	<div>
+		<div class='titulos' value='0'> Experience </div>  
+		<div class='optionsContainner'>
+			<i class='fa fa-angle-right icono' ></i>
+			<i class='fa fa-angle-up icono'></i> 
+				<div *ngFor="let Interest of Interests">			 
+					<a class='container' style='font-weight: normal;' (click)="switchLayout(Interest)">
+						{{ Interest.parentlabel}} 
+					</a>
+		   		</div>
+	   	</div>
+	</div>
+
+</div>
+<div class="container col-md-9">
+	<div class="col-md-9" id="InterestsContainer">
+		<div class="container col-md-12" *ngIf="Volunteering">
+			<app-interests-volunteering></app-interests-volunteering>
+		</div>
+	    <div class="container col-md-12" *ngIf="Music">
+	        <app-interests-music></app-interests-music>
+	    </div>
+	    <div class="container col-md-12" *ngIf="Sports">
+		    <app-interests-sports></app-interests-sports>
+		</div>
+	</div>
+</div>
